@@ -1,7 +1,7 @@
 // program for a simple calculator
 
 // take the operator input
-const operator = prompt('Enter operator ( either +, -, * or / ): ');
+const operator = prompt('Enter operator: +, -, *, /,%');
 
 // take the operand input
 const number1 = parseFloat(prompt('Enter first number: '));
@@ -17,7 +17,7 @@ if (operator == '+') {
 } else if (operator == '*') {
     result = number1 * number2;
 } else if (operator == '/') {
-    result = number1 * number2;
+    result = number1 / number2;
 } else {
     result = number1 % number2;
 }
